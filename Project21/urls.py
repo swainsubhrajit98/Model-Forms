@@ -22,3 +22,7 @@ urlpatterns = [
     path('Insert_Webpage/', Insert_Webpage, name='Insert_Webpage'),
     path('Insert_Access/', Insert_Access, name='Insert_Access'),
 ]
+
+admin.site.site_header = 'Subhrajit'
+admin.site.site_title = 'Django'
+admin.site.index_title = 'Customization'
